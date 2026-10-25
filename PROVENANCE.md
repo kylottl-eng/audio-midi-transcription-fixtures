@@ -4,4 +4,5 @@
 - The included MIDI is the file downloaded after processing that WAV in the Audio MIDI Tools browser workflow on 2026-10-24. The note CSV was independently parsed from that downloaded MIDI file; it is not a hand-edited success case.
 - The comparison script checks the expected pitches and onset windows. It reports extra notes separately and does not turn one fixture into a general accuracy percentage.
 - The public WAV and MIDI were copied from the site's `/examples/` files. SHA-256 of the WAV: `5854FDAFCE6F85206400B35EC65C593E59069048315D7EE20DC358FEBB6573CA`. SHA-256 of the MIDI: `90795F6FF271CB92CFABE5E1256DD7CDCB54001E55B196F362E2D53FDCEB0A80`.
-- No voice recordings, copyrighted songs, or third-party video audio are included.
+- `results/real-songs/` contains three unedited MIDI downloads from the live browser tool on 2026-10-25. Their input recordings are by Loyalty Freak Music / Komiku, Pro Sensory / Alex McCulloch, and Umplix, each marked CC0 on its linked OpenGameArt source page. The input audio itself is not copied here. See `results/real-songs/manifest.csv` for the output hashes, sizes, format and parsed note counts.
+- The local third-party piano MP3 and its derived MIDI are intentionally excluded because no redistribution license was established. No voice recording or third-party video audio is included.
